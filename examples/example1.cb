@@ -21,7 +21,7 @@ fn Counter::increment(mut Counter* counter)
     counter->value = counter->value + 1;
 }
 
-fn describe(State state) : String
+fn describe(State state) : string
 {
     return match state
     {
